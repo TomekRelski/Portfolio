@@ -1,0 +1,81 @@
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tomek Relski</title>
+	<link href="{% static '/css/main.css' %}" rel = "stylesheet" type = "text/css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<br>
+	<div clas="container">
+		<div class="row">
+			<div class ="col-md-3">
+				<div class="card card-body h-100 border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/Profilowe1.jpg' %}" >
+					<hr>
+					<h2> Cześć tu Tomek</h2>
+					<p> Kocham medytować, surfować, pływać na kitesurfingu i uczę się programować.</p>
+				</div>
+			</div>
+
+			<div class ="col-md-9">
+				<div class="card card-body border-info h-100">
+					         <h3> Trochę o mnie i początku          </h3>
+					<hr>
+					<p> Hej jestem początkującym programistą na stażu w Jamna Software w Stargardzie. Jest to nowe wyzwanie w moim życiu. Bardzo interesuje mnie zdobywanie wiedzy i doświadczenia w tym zakresie.
+					</p>
+
+					<p> Wcześniej uczyłem ludzi kitesurfingu i prowadziłem kilka szkół kitesurfingowy. Miałem własną szkołę kitesurfingową Kite Relax Tarifa i byłem wpół twórcą aplikacji dla kitesurferów KiteSpy od strony marketingowej.
+					</p>
+
+					<p> Moją pasją życiową są sporty ekstremalne: kitesurfing, surfing i medytacja. Kocham poszerzać moje umiejętności i dzielić się z innymi poprzez naukę.
+					</p>
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/jamnasoftware1.png' %}"></li>
+						<li><img class="social" src="{% static 'images/kiterelax.png' %}"></li>
+						<li><img class="social" src="{% static 'images/kitespy.png' %}"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+				<div class ="col-md-6">
+					<div class="card card-body h-100">
+						<h3>Moje doświadczenie jako programisty</h3>
+					<hr>	
+					<p>Testowanie stron internetowych i aplikacji.  Podstawy Python, HTML, Git i Django</p>
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/Python.png' %}"></li>
+						<li><img class="social" src="{% static 'images/Html5.png' %}"></li>
+						<li><img class="social" src="{% static 'images/Git.png' %}"></li>
+						<li><img class="social" src="{% static 'images/Django.png' %}"></li>
+					</ul>
+
+
+					</div>
+
+				</div>
+				<div class ="col-md-6">
+					<div class="card card-body h-100">
+						<h3> Języki</h3>
+					<hr>
+					<p> Znam biegle język Hiszpański i Angielski oraz bezbłędnie body language :)</p>
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/Hiszpania.png' %}"></li>
+						<li><img class="social" src="{% static 'images/UK.png' %}"></li>
+						<li><img class="social" src="{% static 'images/bodylan.jpg' %}"></li>
+					</ul>
+						
+					</div>
+				</div>
+			</div>
+			<br>
+			
+</body>
+</html>
